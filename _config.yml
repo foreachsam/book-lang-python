@@ -1,0 +1,54 @@
+#### Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+#### Site settings
+title: 'Python 學習筆記'
+email: foreachsam@users.noreply.github.com
+description: > # this means to ignore newlines until "baseurl:"
+  Python 探索紀錄
+baseurl: '/book-lang-python' # the subpath of your site, e.g. /blog
+url: "http://foreachsam.github.io" # the base hostname & protocol for your site
+twitter_username: foreachsam
+github_username:  foreachsam
+
+
+#### Build settings
+markdown: kramdown
+
+
+#### Repository
+repo:
+    url: https://github.com/foreachsam/book-lang-python
+
+
+#### Plugin
+gems:
+  - 'jekyll-paginate'
+
+
+#### Blog Paginate
+paginate: 20
+paginate_path: '/read/blog/page:num'
+paginate_subpath: '/read/blog'
+##### (paginate_path and paginate_subpath) let blog homepage in subpath
+
+#### Google Analytics
+google_analytics: 'UA-56999876-1'
+
+
+#### Permalink
+permalink: '/read/article/:slug'
+
+
+#### Menu
+menu:
+  - title: 'Python'
+    url: 'https://www.python.org/'
+    icon: 'book'
+  - title: 'More Link'
+    url: '/book-lang-python/read/link/'
+    icon: 'sitemap'

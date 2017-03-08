@@ -1,0 +1,70 @@
+
+.page-header {
+	margin-bottom: 10px;
+}
+
+.page-title {
+	font-size: 36px;
+	color: #424242;
+}
+
+.page-time {
+
+}
+
+.page-content h1 {
+	font-size: 32px;
+}
+
+.page-content h2 {
+	font-size: 28px;
+	padding-bottom: 8px;
+	border-bottom: 1px dotted #bdbdbd;
+}
+
+.page-content h3 {
+	font-size: 24px;
+	padding-bottom: 6px;
+	border-bottom: 1px dashed #bdbdbd;
+}
+
+.page-content h4 {
+	font-size: 22px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.page-content h5 {
+	font-size: 20px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.page-content h6 {
+	font-size: 18px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.page-content ul,
+.page-content ol {
+  padding-left: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.page-content ol ol,
+.page-content ul ol {
+  list-style-type: lower-roman;
+}
+
+.page-content ul ul ol,
+.page-content ul ol ol,
+.page-content ol ul ol,
+.page-content ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.page-content ul li {
+  list-style-type: initial;
+}

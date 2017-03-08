@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+		<div class="ui stackable grid container">
+
+			<div class="two wide column">
+
+			</div>
+
+			<div class="twelve wide column">
+
+				<article class="page" itemscope="" itemtype="http://schema.org/BlogPosting">
+
+					<header class="post-header">
+						{% if page.source_url %}
+						<a href="{{ page.source_url | prepend: 'https://github.com/foreachsam/book-lang-python/blob/gh-pages' | escape }}"><h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1></a>
+						{% else %}
+						<h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+						{% endif %}
+						<p class="page-meta"><time class="post-time" datetime="{{ page.date }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author | escape }}</span></span>{% endif %}</p>
+					</header>
+
+					<div class="page-content" itemprop="articleBody">
+						{{ content }}
+					</div>
+
+				</article>
+
+			</div>
+
+		</div>

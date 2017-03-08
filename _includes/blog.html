@@ -1,0 +1,16 @@
+
+						{% for post in paginator.posts %}
+						<div class="ui piled raised segment box-archive-item" itemscope="" itemtype="http://schema.org/Article" >
+							<div class="ui blue ribbon label"><a href="{{ post.url | prepend: site.baseurl }}" itemprop="url" class="{{ post.title | escape }}" title="{{ post.title | escape }}" ><span  class="archive-item-title" itemprop="name">{{ post.title | escape }}</span></a></div>
+
+							<p class="box-archive-item-date"><a href="{{ post.url | prepend: site.baseurl | escape }}" title="{{ post.title | escape }}" ><span class="archive-item-date" itemprop="datePublished" content="{{ post.date | date: '%b %-d, %Y' | escape }}" >{{ post.date | date: '%b %-d, %Y' | escape }}</span></a></p>
+
+							<div class="box-archive-item-description">
+								{{ post.description | escape }}
+							</div>
+						</div>
+						{% endfor %}
+
+						<div class="ui one column centered grid">
+							{% include pagenav.html %}
+						</div>

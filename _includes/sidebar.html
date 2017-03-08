@@ -1,0 +1,15 @@
+<div class="ui bottom sidebar vertical inverted sticky menu fixed">
+
+	<div class="item"><a href="javascript:;" class="nav-btn menu-btn"><i class="angle double down icon"></i>Close</a></div>
+	{% if site.paginate_subpath %}
+	<div class="item"><a href="{{ site.paginate_subpath | prepend: site.baseurl | append: '/' | escape }}" class="nav-btn" title="Blog"><i class="book icon"></i>Blog</a></div>
+	{% endif %}
+
+	<div class="item"><a href="{{ '/sitemap.xml' | prepend: site.baseurl | escape }}" class="nav-btn" title="Sitemap"><i class="sitemap icon"></i>Sitemap</a></div>
+
+	<div class="item"><a href="{{ site.repo.url | escape }}" class="nav-btn" target="_blank" title="GitHub"><i class="github icon" title="Theme GitHub"></i>Theme GitHub</a></div>
+
+	{% for menu_item in site.menu %}
+	<div class="item"><a href="{{ menu_item.url | escape }}" class="nav-btn" target="_blank" title="{{ menu_item.title | escape }}"><i class="{{ menu_item.icon | escape }} icon"></i>{{ menu_item.title | escape }}</a></div>
+	{% endfor %}
+</div>

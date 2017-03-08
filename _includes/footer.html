@@ -1,0 +1,19 @@
+<footer class="page-footer">
+
+	<div class="ui black inverted vertical footer segment">
+		<div class="ui center aligned container">
+			<div class="ui stackable inverted grid">
+				<div class="seven wide centered floated column">
+					<h4 class="ui inverted blue header">{{ site.title | escape }}</h4>
+					<p>{{ site.description | strip_html | strip_newlines | truncate: 160 | escape }}</p>
+					{% include breadcrumb.html %}
+				</div>
+			</div>
+			<div class="ui inverted section divider"></div>
+			<div class="ui-btn-top">
+				<img class="ui centered mini image" src="{{ '/asset/img/logo.png' | prepend: site.baseurl | escape }}" />
+			</div>
+		</div>
+	</div>
+
+</footer>

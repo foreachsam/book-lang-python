@@ -1,0 +1,9 @@
+---
+layout: home
+---
+
+{% if site.paginate_subpath %}
+	{% include home.html %}
+{% else %}
+	{% include blog.html %}
+{% endif %}

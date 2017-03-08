@@ -1,0 +1,18 @@
+
+							<div class="ui large buttons pagination">
+							{% if paginator.next_page %}
+								<a class="ui negative button pagination-btn older" href="{{ site.baseurl }}{{ site.paginate_subpath }}/page{{paginator.next_page}}/">Older Posts</a>
+							{% else %}
+								<span class="ui disabled button pagination-btn older">Older Posts</span>
+							{% endif %}
+								<div class="or"></div>
+							{% if paginator.previous_page %}
+								{% if paginator.page == 2 %}
+								<a class="ui positive button pagination-btn newer" href="{{ site.baseurl }}{{ site.paginate_subpath }}/">Newer Posts</a>
+								{% else %}
+								<a class="ui positive button pagination-btn newer" href="{{ site.baseurl }}{{ site.paginate_subpath }}/page{{paginator.previous_page}}/">Newer Posts</a>
+								{% endif %}
+							{% else %}
+								<span class="ui disabled button pagination-btn newer">Newer Posts</span>
+							{% endif %}
+							</div>		

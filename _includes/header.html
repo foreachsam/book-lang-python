@@ -1,0 +1,26 @@
+<div class="ui fixed transparent blue inverted main menu">
+	<div class="ui container">
+
+		<div class="item">
+
+			<a class="brand-logo" href="{{ site.baseurl | append: '/' | escape }}" title="{{ site.title | escape }}"><i class="home icon"></i>{{ site.title | escape }}</a>
+
+		</div>
+
+		<div class="right menu">
+
+			{% if site.paginate_subpath %}
+			<div class="mobile hidden item"><a href="{{ site.paginate_subpath | prepend: site.baseurl | escape }}/" class="nav-btn" title="Blog"><i class="book icon"></i>Blog</a></div>
+			{% endif %}
+			<div class="mobile hidden item"><a href="{{ '/read/link' | prepend: site.baseurl | escape }}/" class="nav-btn" title="Link"><i class="sitemap icon"></i>Link</a></div>
+			<div class="mobile hidden item"><a href="{{ site.repo.url | escape }}" class="nav-btn" target="_blank" title="GitHub"><i class="github icon"></i>GitHub</a></div>
+
+			<a class="item menu-btn" href="javascript:;">
+				<i class="sidebar icon"></i>
+			</a>
+
+		</div>
+
+	</div>
+</div>
+<!-- http://semantic-ui.com/collections/menu.html //-->

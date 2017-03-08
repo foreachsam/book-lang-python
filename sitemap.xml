@@ -1,0 +1,20 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="{{ '/sitemap.xsl' | prepend: site.baseurl }}"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% for post in site.posts %}
+	<url>
+		<loc>{{ post.url | prepend: site.baseurl | prepend: site.url | xml_escape }}</loc>
+		<lastmod>{{ site.time | date_to_xmlschema | xml_escape }}</lastmod>
+		<changefreq>daily</changefreq>
+	</url>
+{% endfor %}
+{% for post in site.pages %}{% if post.url contains '/read/' or post.url == '/' %}
+	<url>
+		<loc>{{ post.url | prepend: site.baseurl | prepend: site.url | xml_escape }}</loc>
+		<lastmod>{{ site.time | date_to_xmlschema | xml_escape }}</lastmod>
+		<changefreq>daily</changefreq>
+	</url>
+{% endif %}{% endfor %}
+</urlset>
