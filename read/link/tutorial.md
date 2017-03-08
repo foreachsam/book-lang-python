@@ -5,6 +5,9 @@ description: >
   Python Tutorial 相關連結。
 date: 2017-03-08 16:34:05 +0800
 source_url: '/read/link/tutorial.md'
+parent:
+  title: Python 相關連結
+  url: '/read/link/'
 ---
 
 
