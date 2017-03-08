@@ -19,3 +19,8 @@ source_url: '/read/link/index.md'
 * [The Python GTK+ 3 Tutorial](http://python-gtk-3-tutorial.readthedocs.io/en/latest/index.html)
 * [Python GObject Introspection API Reference](https://lazka.github.io/pgi-docs/index.html)
 * GitHub / Gnome / [pygobject](https://github.com/GNOME/pygobject.git)
+
+
+## Tutorial
+
+* [Python Tutorial 相關連結](tutorial/)
