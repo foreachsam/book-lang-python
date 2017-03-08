@@ -23,4 +23,4 @@ source_url: '/read/link/index.md'
 
 ## Tutorial
 
-* [Python Tutorial 相關連結](tutorial/)
+* [Python Tutorial 相關連結](tutorial)
