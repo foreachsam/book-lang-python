@@ -37,7 +37,7 @@ class App:
 		win.set_icon_name(self.icon_name)
 
 		#win.connect('delete-event', Gtk.main_quit)
-		win.connect('delete-event', self.on_close_app)
+		win.connect('delete-event', self.on_close_win)
 
 		## mouse button event
 		win.connect('button-press-event', self.on_button_press)
@@ -49,7 +49,7 @@ class App:
 
 		win.show_all()
 
-	def on_close_app (self, win, evt):
+	def on_close_win (self, win, evt):
 		## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes/Widget.html#Gtk.Widget.signals.delete_event
 
 		if self.is_debug:
@@ -59,8 +59,7 @@ class App:
 			print('	evt:', evt)
 			print('	dir(evt):', dir(evt))
 
-		## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/functions.html#Gtk.main_quit
-		Gtk.main_quit()
+		self.go_quit()
 
 	def on_button_press (self, win, evt):
 		## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes/Widget.html#Gtk.Widget.signals.button_press_event
@@ -177,6 +176,13 @@ class App:
 		self.set_state_fullscreen(False)
 		self.win.unfullscreen()
 
+	def go_quit(self):
+		if self.is_debug:
+			print('')
+			print('app.go_quit:')
+
+		## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/functions.html#Gtk.main_quit
+		Gtk.main_quit()
 
 	def run (self):
 		Gtk.main()

@@ -170,10 +170,10 @@ class Win:
 			print('	evt:', evt)
 			print('	dir(evt):', dir(evt))
 
-			self.go_deactivate()
-			## self.app.go_quit()
+		self.go_deactivate()
+		## self.app.go_quit()
 
-			return True # must True. For switch indicator icon work.
+		return True # must True. For switch indicator icon work.
 
 	def on_button_press (self, win, evt):
 		## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes/Widget.html#Gtk.Widget.signals.button_press_event

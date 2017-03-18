@@ -57,8 +57,9 @@ class Win(Gtk.Window):
 			print('	evt:', evt)
 			print('	dir(evt):', dir(evt))
 
-		## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/functions.html#Gtk.main_quit
-		Gtk.main_quit()
+		self.app.go_quit()
+
+		return True
 
 	def do_button_press_event (self, evt):
 		## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes/Widget.html#Gtk.Widget.do_button_press_event
@@ -203,6 +204,15 @@ class App:
 	def run (self):
 		self.init()
 		Gtk.main()
+
+	def go_quit(self):
+		if self.is_debug:
+			print('')
+			print('app.go_quit:')
+
+		## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/functions.html#Gtk.main_quit
+		Gtk.main_quit()
+
 
 def main ():
 	app = App()
