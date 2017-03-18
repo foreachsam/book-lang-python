@@ -212,7 +212,8 @@ if __name__ == '__main__':
 
 ## http://python-gtk-3-tutorial.readthedocs.io/en/latest/introduction.html
 
-## https://lazka.github.io/pgi-docs/#Gdk-3.0
+## https://lazka.github.io/pgi-docs/#Gtk-3.0
+## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0
 ## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes.html
 ## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes/Window.html
 ## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes/Widget.html
@@ -220,6 +221,7 @@ if __name__ == '__main__':
 ## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/functions.html#Gtk.accelerator_name
 ## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/functions.html#Gtk.accelerator_get_label
 
+## https://lazka.github.io/pgi-docs/#Gdk-3.0
 ## https://lazka.github.io/pgi-docs/index.html#Gdk-3.0
 ## https://lazka.github.io/pgi-docs/index.html#Gdk-3.0/classes.html
 
