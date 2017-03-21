@@ -10,6 +10,8 @@ gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
 from gi.repository import Gdk
 
+import signal
+
 class App:
 	is_debug = True
 	#is_debug = False
@@ -26,7 +28,13 @@ class App:
 	state_shown = True
 
 	def __init__ (self):
+		self.init_signal()
 		self.init_win()
+
+	def init_signal (self):
+		## https://docs.python.org/3/library/signal.html
+		## https://docs.python.org/2/library/signal.html
+		signal.signal(signal.SIGINT, signal.SIG_DFL)
 
 	def init_win (self):
 		self.win = win = Gtk.Window()

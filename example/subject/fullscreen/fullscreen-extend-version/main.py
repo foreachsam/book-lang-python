@@ -10,6 +10,8 @@ gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
 from gi.repository import Gdk
 
+import signal
+
 
 class Win(Gtk.Window):
 	app = None
@@ -191,9 +193,16 @@ class App:
 		pass
 
 	def init (self):
+		self.init_signal()
+
 		self.win = Win()
 		self.win.app = self
 		self.win.init()
+
+	def init_signal (self):
+		## https://docs.python.org/3/library/signal.html
+		## https://docs.python.org/2/library/signal.html
+		signal.signal(signal.SIGINT, signal.SIG_DFL)
 
 	def run (self):
 		self.init()

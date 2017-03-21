@@ -19,6 +19,7 @@ from gi.repository import Keybinder
 gi.require_version('WebKit2', '4.0')
 from gi.repository import WebKit2 as WebKit
 
+import signal
 import subprocess
 
 
@@ -94,7 +95,7 @@ class WebView:
 		uri = self.go_get_uri()
 		#self.ps = subprocess.Popen(('mpv', uri))
 		subprocess.Popen(('mpv', uri))
-		
+
 
 class Indicator:
 	app = None
@@ -314,7 +315,8 @@ class Win:
 			print('')
 			print('on_key_activate_win:')
 			print('	accelerator_name:', accelerator_name)
-		self.go_activate()
+		self.go_switch_activate()
+		## self.go_activate()
 
 	def on_close_win (self, win, evt):
 		## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes/Widget.html#Gtk.Widget.signals.delete_event
@@ -459,6 +461,7 @@ class App:
 		pass
 
 	def init (self):
+		self.init_signal()
 
 		self.win = win = Win()
 		win.app = self
@@ -467,6 +470,11 @@ class App:
 		self.indicator = indicator = Indicator()
 		indicator.app = self
 		indicator.init()
+
+	def init_signal (self):
+		## https://docs.python.org/3/library/signal.html
+		## https://docs.python.org/2/library/signal.html
+		signal.signal(signal.SIGINT, signal.SIG_DFL)
 
 	def run (self):
 		self.init()
