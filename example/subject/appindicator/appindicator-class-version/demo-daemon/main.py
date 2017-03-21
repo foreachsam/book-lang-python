@@ -8,6 +8,7 @@ from gi.repository import Gtk
 gi.require_version('AppIndicator3', '0.1')
 from gi.repository import AppIndicator3 as AppIndicator
 
+import signal
 
 ## Gtk
 ## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0
@@ -25,7 +26,13 @@ class App:
 	icon_name_btn_app_quit = 'application-exit'
 
 	def __init__(self):
+		self.init_signal()
 		self.init_menu()
+
+	def init_signal (self):
+		## https://docs.python.org/3/library/signal.html
+		## https://docs.python.org/2/library/signal.html
+		signal.signal(signal.SIGINT, signal.SIG_DFL)
 
 	def init_menu(self):
 		# https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes/Menu.html

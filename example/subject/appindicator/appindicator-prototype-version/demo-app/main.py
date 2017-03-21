@@ -8,6 +8,13 @@ from gi.repository import Gtk
 gi.require_version('AppIndicator3', '0.1')
 from gi.repository import AppIndicator3 as AppIndicator
 
+import signal
+
+
+## https://docs.python.org/3/library/signal.html
+## https://docs.python.org/2/library/signal.html
+signal.signal(signal.SIGINT, signal.SIG_DFL)
+
 ## Gtk
 ## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0
 ## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes.html
