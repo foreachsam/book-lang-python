@@ -42,6 +42,11 @@ source_url: '/read/subject/appindicator/index.md'
 
 ## Package
 
+* [libappindicator3-dev](http://packages.ubuntu.com/xenial/libappindicator3-dev)
+* [libappindicator3-1](http://packages.ubuntu.com/xenial/libappindicator3-1)
+* [gir1.2-appindicator3-0.1](http://packages.ubuntu.com/xenial/gir1.2-appindicator3-0.1)
+
+
 執行下面指令，安裝「[libappindicator3-dev](http://packages.ubuntu.com/xenial/libappindicator3-dev)」
 
 ``` sh
@@ -71,9 +76,7 @@ ii  python-appindicator             12.10.1+16.04.201702 amd64                Py
 un  python2.7-appindicator          <none>               <none>               (no description available)
 ```
 
-* [gir1.2-appindicator3-0.1](http://packages.ubuntu.com/xenial/gir1.2-appindicator3-0.1)
-* [libappindicator3-1](http://packages.ubuntu.com/xenial/libappindicator3-1)
-* [libappindicator3-dev](http://packages.ubuntu.com/xenial/libappindicator3-dev)
+
 
 執行
 
