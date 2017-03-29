@@ -9,3 +9,9 @@ source_url: '/index.md'
 
 
 ## Python
+
+
+## Subject
+
+* [Appindicator](read/subject/appindicator)
+* [Fullscreen](read/subject/fullscreen)
