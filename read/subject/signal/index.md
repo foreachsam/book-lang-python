@@ -20,3 +20,18 @@ source_url: '/read/subject/signal/index.md'
 
 * [https://docs.python.org/3/library/signal.html](https://docs.python.org/3/library/signal.html)
 * [https://docs.python.org/2/library/signal.html](https://docs.python.org/2/library/signal.html)
+
+
+## Path
+
+執行
+
+``` sh
+$ ls /usr/lib/*/signal.py
+```
+
+顯示
+
+```
+/usr/lib/python3.5/signal.py
+```
