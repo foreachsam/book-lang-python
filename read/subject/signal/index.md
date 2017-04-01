@@ -13,7 +13,6 @@ source_url: '/read/subject/signal/index.md'
 
 * [demo-app](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/signal/signal-prototype-version/demo-app/main.py)
 * [webkit-prototype-version](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/webkit/webkit-prototype-version/main.py)
-* [fullscreen-composite-appindicator-webkit-version](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/fullscreen/fullscreen-composite-appindicator-webkit-version/main.py)
 
 ### 整合範例
 
