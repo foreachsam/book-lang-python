@@ -265,7 +265,12 @@ class Win:
 	state_fullscreen = False
 	state_activate = True
 
+	width = 600
+	height = 800
+
 	keybind_accelerator_name_activate = '<Super>a'
+	keybind_accelerator_name_fullscreen = 'F11'
+	keybind_accelerator_name_play_youtube = 'F1'
 
 	def __init__ (self):
 		pass
@@ -307,7 +312,9 @@ class Win:
 
 		box.pack_start(webview.webview, True, True, 0)
 
-		win.resize_to_geometry(600, 800)
+		win.resize(self.width, self.height)
+		#win.resize_to_geometry(self.width, self.height)
+
 		win.show_all()
 
 	def on_key_activate_win(self, accelerator_name):
@@ -370,12 +377,12 @@ class Win:
 
 		## on press [F11]
 		## if accelerator_label == 'F11':
-		if accelerator_name == 'F11':
+		if accelerator_name == self.keybind_accelerator_name_fullscreen:
 			self.go_switch_fullscreen()
 			return True
 
 		## on press [F1]
-		if accelerator_name == 'F1':
+		elif accelerator_name == self.keybind_accelerator_name_play_youtube:
 			self.app.win.webview.go_play_youtube()
 			return True
 
