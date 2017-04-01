@@ -21,6 +21,9 @@ source_url: '/read/subject/appindicator/index.md'
 * [demo-app](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/appindicator/appindicator-class-version/demo-app/main.py)
 * [demo-daemon](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/appindicator/appindicator-class-version/demo-daemon/main.py)
 
+### 整合範例
+
+* [fullscreen-composite-appindicator-webkit-version](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/fullscreen/fullscreen-composite-appindicator-webkit-version/main.py) ([Fullscreen](https://foreachsam.github.io/book-lang-python/read/subject/fullscreen/))
 
 ## API
 

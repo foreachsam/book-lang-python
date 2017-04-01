@@ -15,6 +15,9 @@ source_url: '/read/subject/signal/index.md'
 * [webkit-prototype-version](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/webkit/webkit-prototype-version/main.py)
 * [fullscreen-composite-appindicator-webkit-version](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/fullscreen/fullscreen-composite-appindicator-webkit-version/main.py)
 
+### 整合範例
+
+* [fullscreen-composite-appindicator-webkit-version](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/fullscreen/fullscreen-composite-appindicator-webkit-version/main.py) ([Fullscreen](https://foreachsam.github.io/book-lang-python/read/subject/fullscreen/))
 
 ## Python Documentation
 
