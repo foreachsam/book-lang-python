@@ -5,6 +5,9 @@ description: >
   Python Signal
 date: 2017-03-29 15:54:14 +0800
 source_url: '/read/subject/gtk/signal/index.md'
+parent:
+  title: Python Gtk+ 3
+  url: '/read/subject/gtk/'
 ---
 
 ## 範例

@@ -5,6 +5,9 @@ description: >
   Python Gtk Webkit
 date: 2017-04-02 14:10:38 +0800
 source_url: '/read/subject/gtk/button/index.md'
+parent:
+  title: Python Gtk+ 3
+  url: '/read/subject/gtk/'
 ---
 
 

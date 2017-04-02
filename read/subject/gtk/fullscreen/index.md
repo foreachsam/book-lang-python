@@ -5,6 +5,9 @@ description: >
   Python Gtk Fullscreen
 date: 2017-03-29 14:04:21 +0800
 source_url: '/read/subject/gtk/fullscreen/index.md'
+parent:
+  title: Python Gtk+ 3
+  url: '/read/subject/gtk/'
 ---
 
 

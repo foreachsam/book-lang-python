@@ -5,6 +5,9 @@ description: >
   Python Gtk Appindicator
 date: 2017-03-29 14:03:35 +0800
 source_url: '/read/subject/gtk/appindicator/index.md'
+parent:
+  title: Python Gtk+ 3
+  url: '/read/subject/gtk/'
 ---
 
 

@@ -9,8 +9,7 @@ source_url: '/index.md'
 
 # Python
 
-
-## Subject
+## [Gtk 3](read/subject/gtk)
 
 * [Window](read/subject/gtk/window)
 * [Signal](read/subject/gtk/signal)
