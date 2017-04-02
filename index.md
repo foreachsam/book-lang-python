@@ -13,7 +13,7 @@ source_url: '/index.md'
 ## Subject
 
 * [Window](read/subject/window)
+* [Signal](read/subject/signal)
 * [Appindicator](read/subject/appindicator)
 * [Fullscreen](read/subject/fullscreen)
 * [Webkit](read/subject/webkit)
-* [signal](read/subject/signal)

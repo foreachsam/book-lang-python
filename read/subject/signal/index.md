@@ -11,18 +11,18 @@ source_url: '/read/subject/signal/index.md'
 
 ### Prototype
 
-* [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/siginal/prototype/demo-basic/main.py)
+* [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/signal/prototype/demo-basic/main.py)
 
 ### Composite
 
-* [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/siginal/composite/demo-basic/main.py)
+* [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/signal/composite/demo-basic/main.py)
 
 
 ### Extend
 
-* [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/siginal/extend/demo-basic/main.py)
+* [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/signal/extend/demo-basic/main.py)
 
-* [demo-basic-virtual](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/siginal/extend/demo-basic-virtual/main.py)
+* [demo-basic-virtual](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/signal/extend/demo-basic-virtual/main.py)
 
 
 ### 整合範例
