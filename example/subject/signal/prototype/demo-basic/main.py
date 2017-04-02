@@ -12,6 +12,14 @@ import signal
 ## https://docs.python.org/2/library/signal.html
 signal.signal(signal.SIGINT, signal.SIG_DFL)
 
+
+win = Gtk.Window()
+win.connect('delete-event', Gtk.main_quit)
+
+win.show_all()
+Gtk.main()
+
+
 ## Tutorial
 ## http://python-gtk-3-tutorial.readthedocs.io/en/latest/introduction.html
 
@@ -19,12 +27,5 @@ signal.signal(signal.SIGINT, signal.SIG_DFL)
 ## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0
 ## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes.html
 ## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes/Window.html
-## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes/Window.html#Gtk.Window.resize
-## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes/Window.html#Gtk.Window.resize_to_geometry
-win = Gtk.Window()
-win.connect('delete-event', Gtk.main_quit)
-win.resize(600, 800)
-
-
-win.show_all()
-Gtk.main()
+## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes/Widget.html#Gtk.Widget.signals.delete_event
+## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/functions.html#Gtk.main_quit
