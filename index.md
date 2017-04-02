@@ -12,9 +12,9 @@ source_url: '/index.md'
 
 ## Subject
 
-* [Window](gtk/read/subject/window)
-* [Signal](gtk/read/subject/signal)
-* [Button](gtk/read/subject/button)
-* [Appindicator](gtk/read/subject/appindicator)
-* [Fullscreen](gtk/read/subject/fullscreen)
-* [Webkit](gtk/read/subject/webkit)
+* [Window](read/subject/gtk/window)
+* [Signal](read/subject/gtk/signal)
+* [Button](read/subject/gtk/button)
+* [Appindicator](read/subject/gtk/appindicator)
+* [Fullscreen](read/subject/gtk/fullscreen)
+* [Webkit](read/subject/gtk/webkit)
