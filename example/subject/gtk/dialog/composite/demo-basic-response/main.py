@@ -20,10 +20,12 @@ class Dia:
 		pass
 
 	def init (self):
+
+		## http://python-gtk-3-tutorial.readthedocs.io/en/latest/dialogs.html
 		self.dia = dia = Gtk.Dialog(
 			self.title,
 			self.win,
-			1,
+			Gtk.DialogFlags.MODAL,
 			(
 				Gtk.STOCK_CANCEL,
 				Gtk.ResponseType.CANCEL,
@@ -31,6 +33,38 @@ class Dia:
 				Gtk.ResponseType.OK
 			)
 		)
+
+		## /usr/lib/python3/dist-packages/gi/overrides/Gtk.py
+		## Work
+		#self.dia = dia = Gtk.Dialog(
+		#	title = self.title,
+		#	parent = self.win,
+		#	flags = Gtk.DialogFlags.MODAL,
+		#	buttons = (
+		#		Gtk.STOCK_CANCEL,
+		#		Gtk.ResponseType.CANCEL,
+		#		Gtk.STOCK_OK,
+		#		Gtk.ResponseType.OK
+		#	)
+		#)
+
+
+		## https://github.com/GNOME/pygobject/blob/master/demos/gtk-demo/demos/dialogs.py#L91
+		## Work
+		#self.dia = dia = Gtk.Dialog(
+		#	title=self.title,
+		#	transient_for=self.win,
+		#	modal=True,
+		#	destroy_with_parent=True,
+		#	buttons = (
+		#		Gtk.STOCK_CANCEL,
+		#		Gtk.ResponseType.CANCEL,
+		#		Gtk.STOCK_OK,
+		#		Gtk.ResponseType.OK
+		#	)
+		#)
+
+
 		label = Gtk.Label(self.message)
 
 		box = dia.get_content_area()

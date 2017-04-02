@@ -20,11 +20,32 @@ class Dia:
 		pass
 
 	def init (self):
+
+		## http://python-gtk-3-tutorial.readthedocs.io/en/latest/dialogs.html
 		self.dia = dia = Gtk.Dialog(
 			self.title,
 			self.win,
-			1
+			Gtk.DialogFlags.MODAL
 		)
+
+		## /usr/lib/python3/dist-packages/gi/overrides/Gtk.py
+		## Work
+		#self.dia = dia = Gtk.Dialog(
+		#	title = self.title,
+		#	parent = self.win,
+		#	flags = Gtk.DialogFlags.MODAL
+		#)
+
+
+		## https://github.com/GNOME/pygobject/blob/master/demos/gtk-demo/demos/dialogs.py#L91
+		## Work
+		#self.dia = dia = Gtk.Dialog(
+		#	title = self.title,
+		#	transient_for = self.win,
+		#	modal = True,
+		#	destroy_with_parent = True
+		#)
+
 		label = Gtk.Label(self.message)
 
 		box = dia.get_content_area()
