@@ -4,30 +4,30 @@ title: Python Signal
 description: >
   Python Signal
 date: 2017-03-29 15:54:14 +0800
-source_url: '/read/subject/signal/index.md'
+source_url: '/read/subject/gtk/signal/index.md'
 ---
 
 ## 範例
 
 ### Prototype
 
-* [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/signal/prototype/demo-basic/main.py)
+* [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/signal/prototype/demo-basic/main.py)
 
 ### Composite
 
-* [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/signal/composite/demo-basic/main.py)
+* [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/signal/composite/demo-basic/main.py)
 
 
 ### Extend
 
-* [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/signal/extend/demo-basic/main.py)
+* [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/signal/extend/demo-basic/main.py)
 
-* [demo-basic-virtual](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/signal/extend/demo-basic-virtual/main.py)
+* [demo-basic-virtual](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/signal/extend/demo-basic-virtual/main.py)
 
 
 ### 整合範例
 
-* [fullscreen/composite/demo-appindicator-webkit](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/fullscreen/composite/demo-appindicator-webkit/main.py) ([Fullscreen](https://foreachsam.github.io/book-lang-python/read/subject/fullscreen/))
+* [fullscreen/composite/demo-appindicator-webkit](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/fullscreen/composite/demo-appindicator-webkit/main.py) ([Fullscreen](https://foreachsam.github.io/book-lang-python/read/subject/gtk/fullscreen/))
 
 ## Python Documentation
 

@@ -4,7 +4,7 @@ title: Python Gtk Fullscreen
 description: >
   Python Gtk Fullscreen
 date: 2017-03-29 14:04:21 +0800
-source_url: '/read/subject/fullscreen/index.md'
+source_url: '/read/subject/gtk/fullscreen/index.md'
 ---
 
 
@@ -12,18 +12,18 @@ source_url: '/read/subject/fullscreen/index.md'
 
 ### Prototype
 
-* [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/fullscreen/prototype/demo-basic/main.py)
+* [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/fullscreen/prototype/demo-basic/main.py)
 
 ### Composite
 
-* [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/fullscreen/composite/demo-basic/main.py)
-* [demo-appindicator](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/fullscreen/composite/demo-appindicator/main.py)
-* [demo-appindicator-webkit](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/fullscreen/composite/demo-appindicator-webkit/main.py)
+* [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/fullscreen/composite/demo-basic/main.py)
+* [demo-appindicator](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/fullscreen/composite/demo-appindicator/main.py)
+* [demo-appindicator-webkit](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/fullscreen/composite/demo-appindicator-webkit/main.py)
 
 ### Extend
 
-* [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/fullscreen/extend/demo-basic/main.py)
-* [demo-basic-virtual](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/fullscreen/extend/demo-basic-virtual/main.py)
+* [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/fullscreen/extend/demo-basic/main.py)
+* [demo-basic-virtual](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/fullscreen/extend/demo-basic-virtual/main.py)
 
 
 ## API

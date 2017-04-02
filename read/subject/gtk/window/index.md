@@ -4,7 +4,7 @@ title: Python Gtk Webkit
 description: >
   Python Gtk Webkit
 date: 2017-04-02 12:34:55 +0800
-source_url: '/read/subject/window/index.md'
+source_url: '/read/subject/gtk/window/index.md'
 ---
 
 
@@ -12,18 +12,18 @@ source_url: '/read/subject/window/index.md'
 
 ### Prototype
 
-* [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/window/prototype/demo-basic/main.py)
+* [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/window/prototype/demo-basic/main.py)
 
 ### Composite
 
-* [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/window/composite/demo-basic/main.py)
+* [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/window/composite/demo-basic/main.py)
 
 
 ### Extend
 
-* [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/window/extend/demo-basic/main.py)
+* [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/window/extend/demo-basic/main.py)
 
-* [demo-basic-virtual](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/window/extend/demo-basic-virtual/main.py)
+* [demo-basic-virtual](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/window/extend/demo-basic-virtual/main.py)
 
 
 ## API

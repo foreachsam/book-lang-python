@@ -4,7 +4,7 @@ title: Python Gtk Webkit
 description: >
   Python Gtk Webkit
 date: 2017-03-29 14:04:21 +0800
-source_url: '/read/subject/webkit/index.md'
+source_url: '/read/subject/gtk/webkit/index.md'
 ---
 
 
@@ -12,11 +12,11 @@ source_url: '/read/subject/webkit/index.md'
 
 ### Prototype Version
 
-* [webkit-prototype-version](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/webkit/webkit-prototype-version/main.py)
+* [webkit-prototype-version](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/webkit/webkit-prototype-version/main.py)
 
 ### 整合範例
 
-* [fullscreen/composite/demo-appindicator-webkit](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/fullscreen/composite/demo-appindicator-webkit/main.py) ([Fullscreen](https://foreachsam.github.io/book-lang-python/read/subject/fullscreen/))
+* [fullscreen/composite/demo-appindicator-webkit](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/fullscreen/composite/demo-appindicator-webkit/main.py) ([Fullscreen](https://foreachsam.github.io/book-lang-python/read/subject/gtk/fullscreen/))
 
 
 ## API

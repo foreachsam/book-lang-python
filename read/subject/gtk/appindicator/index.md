@@ -4,7 +4,7 @@ title: Python Gtk Appindicator
 description: >
   Python Gtk Appindicator
 date: 2017-03-29 14:03:35 +0800
-source_url: '/read/subject/appindicator/index.md'
+source_url: '/read/subject/gtk/appindicator/index.md'
 ---
 
 
@@ -12,18 +12,18 @@ source_url: '/read/subject/appindicator/index.md'
 
 ### Prototype
 
-* [demo-import](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/appindicator/prototype/demo-import/main.py)
-* [demo-app](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/appindicator/prototype/demo-app/main.py)
-* [demo-daemon](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/appindicator/prototype/demo-daemon/main.py)
+* [demo-import](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/appindicator/prototype/demo-import/main.py)
+* [demo-app](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/appindicator/prototype/demo-app/main.py)
+* [demo-daemon](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/appindicator/prototype/demo-daemon/main.py)
 
 ### Composite
 
-* [demo-app](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/appindicator/composite/demo-app/main.py)
-* [demo-daemon](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/appindicator/composite/demo-daemon/main.py)
+* [demo-app](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/appindicator/composite/demo-app/main.py)
+* [demo-daemon](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/appindicator/composite/demo-daemon/main.py)
 
 ### 整合範例
 
-* [fullscreen/composite/demo-appindicator-webkit](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/fullscreen/composite/demo-appindicator-webkit/main.py) ([Fullscreen](https://foreachsam.github.io/book-lang-python/read/subject/fullscreen/))
+* [fullscreen/composite/demo-appindicator-webkit](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/fullscreen/composite/demo-appindicator-webkit/main.py) ([Fullscreen](https://foreachsam.github.io/book-lang-python/read/subject/gtk/fullscreen/))
 
 ## API
 
