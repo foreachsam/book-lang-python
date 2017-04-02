@@ -10,16 +10,16 @@ source_url: '/read/subject/appindicator/index.md'
 
 ## 範例
 
-### Prototype Version
+### Prototype
 
-* [demo-import](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/appindicator/appindicator-prototype-version/demo-import/main.py)
-* [demo-app](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/appindicator/appindicator-prototype-version/demo-app/main.py)
-* [demo-daemon](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/appindicator/appindicator-prototype-version/demo-daemon/main.py)
+* [demo-import](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/appindicator/prototype/demo-import/main.py)
+* [demo-app](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/appindicator/prototype/demo-app/main.py)
+* [demo-daemon](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/appindicator/prototype/demo-daemon/main.py)
 
-### Class Version
+### Composite
 
-* [demo-app](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/appindicator/appindicator-class-version/demo-app/main.py)
-* [demo-daemon](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/appindicator/appindicator-class-version/demo-daemon/main.py)
+* [demo-app](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/appindicator/composite/demo-app/main.py)
+* [demo-daemon](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/appindicator/composite/demo-daemon/main.py)
 
 ### 整合範例
 
