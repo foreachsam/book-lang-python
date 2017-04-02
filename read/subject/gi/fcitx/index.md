@@ -45,3 +45,4 @@ parent:
 
 * [http://foreachsam.github.io/book-util-dbus/book/content/case/fcitx/basic/qdbus/](http://foreachsam.github.io/book-util-dbus/book/content/case/fcitx/basic/qdbus/)
 * [http://foreachsam.github.io/book-util-fcitx/book/content/command/fcitx-remote/](http://foreachsam.github.io/book-util-fcitx/book/content/command/fcitx-remote/)
+* [http://foreachsam.github.io/book-util-dbus/book/content/case/fcitx/basic/pygi-gio/](http://foreachsam.github.io/book-util-dbus/book/content/case/fcitx/basic/pygi-gio/)
