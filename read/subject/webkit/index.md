@@ -16,7 +16,7 @@ source_url: '/read/subject/webkit/index.md'
 
 ### 整合範例
 
-* [fullscreen-composite-appindicator-webkit-version](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/fullscreen/fullscreen-composite-appindicator-webkit-version/main.py) ([Fullscreen](https://foreachsam.github.io/book-lang-python/read/subject/fullscreen/))
+* [fullscreen/composite/demo-appindicator-webkit](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/fullscreen/composite/demo-appindicator-webkit/main.py) ([Fullscreen](https://foreachsam.github.io/book-lang-python/read/subject/fullscreen/))
 
 
 ## API

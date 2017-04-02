@@ -10,12 +10,20 @@ source_url: '/read/subject/fullscreen/index.md'
 
 ## 範例
 
-* [fullscreen-prototype-version](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/fullscreen/fullscreen-prototype-version/main.py)
-* [fullscreen-composite-version](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/fullscreen/fullscreen-composite-version/main.py)
-* [fullscreen-extend-version](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/fullscreen/fullscreen-extend-version/main.py)
-* [fullscreen-composite-appindicator-version](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/fullscreen/fullscreen-composite-appindicator-version/main.py)
-* [fullscreen-extend-virtual-version](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/fullscreen/fullscreen-extend-virtual-version/main.py)
-* [fullscreen-composite-appindicator-webkit-version](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/fullscreen/fullscreen-composite-appindicator-webkit-version/main.py)
+### Prototype
+
+* [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/fullscreen/prototype/demo-basic/main.py)
+
+### Composite
+
+* [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/fullscreen/composite/demo-basic/main.py)
+* [demo-appindicator](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/fullscreen/composite/demo-appindicator/main.py)
+* [demo-appindicator-webkit](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/fullscreen/composite/demo-appindicator-webkit/main.py)
+
+### Extend
+
+* [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/fullscreen/extend/demo-basic/main.py)
+* [demo-basic-virtual](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/fullscreen/extend/demo-basic-virtual/main.py)
 
 
 ## API
