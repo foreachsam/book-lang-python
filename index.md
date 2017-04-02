@@ -17,3 +17,7 @@ source_url: '/index.md'
 * [Appindicator](read/subject/gtk/appindicator)
 * [Fullscreen](read/subject/gtk/fullscreen)
 * [Webkit](read/subject/gtk/webkit)
+
+## [PyGObject (PyGI)](read/subject/gi)
+
+* [fcitx](read/subject/gi/fcitx)
