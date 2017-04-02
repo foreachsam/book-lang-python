@@ -3,7 +3,7 @@ layout: page
 title: Python Gtk+ 3
 description: >
   Python Gtk+ 3
-date: 2017-03-29 14:03:35 +0800
+date: 2017-04-02 15:44:07 +0800
 source_url: '/read/subject/gtk/index.md'
 ---
 
