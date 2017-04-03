@@ -499,4 +499,4 @@ $ pkg-config --cflags --libs gobject-2.0
 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -lgobject-2.0 -lglib-2.0
 ```
 
-* http://helgo.net/simon/introspection-tutorial/stepfour.xhtml
+* [http://helgo.net/simon/introspection-tutorial/stepfour.xhtml](http://helgo.net/simon/introspection-tutorial/stepfour.xhtml)
