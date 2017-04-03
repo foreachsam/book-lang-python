@@ -82,3 +82,58 @@ $ apt-cache showsrc gir1.2-fcitx-1.0
 ``` sh
 $ apt-get install gir1.2-fcitx-1.0
 ```
+
+執行
+
+``` sh
+$ dpkg -L gir1.2-fcitx-1.0
+```
+
+顯示
+
+```
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/girepository-1.0
+/usr/lib/x86_64-linux-gnu/girepository-1.0/Fcitx-1.0.typelib
+/usr/share
+/usr/share/doc
+/usr/share/doc/gir1.2-fcitx-1.0
+/usr/share/doc/gir1.2-fcitx-1.0/copyright
+/usr/share/gir-1.0
+/usr/share/gir-1.0/Fcitx-1.0.gir
+/usr/share/doc/gir1.2-fcitx-1.0/changelog.Debian.gz
+```
+
+## 路徑
+
+* /usr/lib/x86_64-linux-gnu/girepository-1.0
+* /usr/share/gir-1.0
+
+### 路徑探索
+
+執行
+
+``` sh
+$ ls /usr/share/gir-1.0/
+```
+
+執行
+
+``` sh
+$ ls /usr/lib/x86_64-linux-gnu/girepository-1.0
+```
+
+執行
+
+``` sh
+$ dpkg -S /usr/share/gir-1.0/
+```
+
+執行
+
+``` sh
+$ dpkg -S /usr/lib/x86_64-linux-gnu/girepository-1.0
+```

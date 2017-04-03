@@ -23,3 +23,35 @@ source_url: '/read/subject/gi/index.md'
 * [Python GObject Introspection API Reference](https://lazka.github.io/pgi-docs/index.html)
 * GitHub / Gnome / [pygobject](https://github.com/GNOME/pygobject.git)
 * [GNOME Developer Platform Demos](https://developer.gnome.org/gnome-devel-demos/stable/index.html.en) / [Tutorials, code samples and platform demos in Python](https://developer.gnome.org/gnome-devel-demos/stable/py.html.en)
+
+
+## 路徑
+
+* /usr/lib/x86_64-linux-gnu/girepository-1.0
+* /usr/share/gir-1.0
+
+### 路徑探索
+
+執行
+
+``` sh
+$ ls /usr/share/gir-1.0/
+```
+
+執行
+
+``` sh
+$ ls /usr/lib/x86_64-linux-gnu/girepository-1.0
+```
+
+執行
+
+``` sh
+$ dpkg -S /usr/share/gir-1.0/
+```
+
+執行
+
+``` sh
+$ dpkg -S /usr/lib/x86_64-linux-gnu/girepository-1.0
+```
