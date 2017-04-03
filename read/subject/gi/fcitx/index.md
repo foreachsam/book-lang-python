@@ -46,3 +46,39 @@ parent:
 * [http://foreachsam.github.io/book-util-dbus/book/content/case/fcitx/basic/qdbus/](http://foreachsam.github.io/book-util-dbus/book/content/case/fcitx/basic/qdbus/)
 * [http://foreachsam.github.io/book-util-fcitx/book/content/command/fcitx-remote/](http://foreachsam.github.io/book-util-fcitx/book/content/command/fcitx-remote/)
 * [http://foreachsam.github.io/book-util-dbus/book/content/case/fcitx/basic/pygi-gio/](http://foreachsam.github.io/book-util-dbus/book/content/case/fcitx/basic/pygi-gio/)
+
+## 相關套件
+
+* [gir1.2-fcitx-1.0](http://packages.ubuntu.com/xenial/gir1.2-fcitx-1.0)
+
+### 操作步驟
+
+執行下面指令，查詢相關套件
+
+``` sh
+$ apt-cache search fcitx | grep gir
+```
+
+顯示
+
+```
+gir1.2-fcitx-1.0 - Flexible Input Method Framework - GObject introspection
+```
+
+執行
+
+``` sh
+$ apt-cache show gir1.2-fcitx-1.0
+```
+
+執行
+
+``` sh
+$ apt-cache showsrc gir1.2-fcitx-1.0
+```
+
+執行下面指令，安裝「[gir1.2-fcitx-1.0](http://packages.ubuntu.com/xenial/gir1.2-fcitx-1.0)」
+
+``` sh
+$ apt-get install gir1.2-fcitx-1.0
+```
