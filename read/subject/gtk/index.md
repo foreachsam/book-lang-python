@@ -21,7 +21,7 @@ source_url: '/read/subject/gtk/index.md'
 
 ## Document
 
-### Python GObject
+### [Python PyGObject (PyGI)](../gi/)
 
 * [PyGObject (aka PyGI)](https://wiki.gnome.org/Projects/PyGObject)
 * [The Python GTK+ 3 Tutorial](http://python-gtk-3-tutorial.readthedocs.io/en/latest/index.html)
