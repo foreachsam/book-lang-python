@@ -129,3 +129,4 @@ if __name__ == '__main__':
 ## Vte.Terminal
 ## https://lazka.github.io/pgi-docs/index.html#Vte-2.91/classes/Terminal.html
 ## https://lazka.github.io/pgi-docs/index.html#Vte-2.91/classes/Terminal.html#Vte.Terminal.signals.child_exited
+## https://lazka.github.io/pgi-docs/index.html#Vte-2.91/classes/Terminal.html#Vte.Terminal.do_child_exited

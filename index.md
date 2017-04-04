@@ -7,7 +7,9 @@ date: 2017-03-08 13:32:34 +0800
 source_url: '/index.md'
 ---
 
+
 # Python
+
 
 ## [Gtk 3](read/subject/gtk)
 
@@ -17,6 +19,8 @@ source_url: '/index.md'
 * [Appindicator](read/subject/gtk/appindicator)
 * [Fullscreen](read/subject/gtk/fullscreen)
 * [Webkit](read/subject/gtk/webkit)
+* [Vte](read/subject/gtk/vte)
+
 
 ## [PyGObject (PyGI)](read/subject/gi)
 
