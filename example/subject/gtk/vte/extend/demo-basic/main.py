@@ -110,6 +110,9 @@ if __name__ == '__main__':
 ## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes.html
 ## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes/Window.html
 
-## Gtk.Button
-## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes/Button.html
-## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes/Button.html#Gtk.Button.signals.clicked
+## Vte
+## https://lazka.github.io/pgi-docs/index.html#Vte-2.91
+## https://lazka.github.io/pgi-docs/index.html#Vte-2.91/classes.html
+
+## Vte.Terminal
+## https://lazka.github.io/pgi-docs/index.html#Vte-2.91/classes/Terminal.html

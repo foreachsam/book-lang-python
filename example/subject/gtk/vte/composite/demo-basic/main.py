@@ -125,5 +125,9 @@ if __name__ == '__main__':
 ## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes/Window.html#Gtk.Window.resize
 ## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes/Window.html#Gtk.Window.resize_to_geometry
 
+## Vte
+## https://lazka.github.io/pgi-docs/index.html#Vte-2.91
+## https://lazka.github.io/pgi-docs/index.html#Vte-2.91/classes.html
+
 ## Vte.Terminal
 ## https://lazka.github.io/pgi-docs/index.html#Vte-2.91/classes/Terminal.html

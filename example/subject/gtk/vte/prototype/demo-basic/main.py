@@ -55,3 +55,10 @@ Gtk.main()
 ## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes/Window.html
 ## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes/Widget.html#Gtk.Widget.signals.delete_event
 ## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/functions.html#Gtk.main_quit
+
+## Vte
+## https://lazka.github.io/pgi-docs/index.html#Vte-2.91
+## https://lazka.github.io/pgi-docs/index.html#Vte-2.91/classes.html
+
+## Vte.Terminal
+## https://lazka.github.io/pgi-docs/index.html#Vte-2.91/classes/Terminal.html
