@@ -11,18 +11,23 @@ from gi.repository import Vte
 import signal
 import os
 
-class Term(Vte.Terminal):
+class Term:
+	app = None
+	win = None
+	term = None
 
-	def __init__(self, *args, **kwds):
-		super().__init__(*args, **kwds)
-		## super(Term, self).__init__(*args, **kwds)
+	def __init__ (self):
+		pass
 
 	def init (self):
 		self.init_term()
 
 	def init_term (self):
+		## https://lazka.github.io/pgi-docs/index.html#Vte-2.91/classes/Terminal.html#Vte.Terminal.new
+		self.term = term = Vte.Terminal()
+
 		## https://lazka.github.io/pgi-docs/index.html#Vte-2.91/classes/Terminal.html#Vte.Terminal.spawn_sync
-		rtn = self.spawn_sync(
+		rtn = term.spawn_sync(
 			Vte.PtyFlags.DEFAULT,
 			os.environ['HOME'],
 			['/bin/bash'],
@@ -34,33 +39,54 @@ class Term(Vte.Terminal):
 
 		print(rtn)
 
-class Win(Gtk.Window):
-	title = 'Demo Vte.Terminal'
+		##term.watch_child(rtn[1])
 
+		## https://lazka.github.io/pgi-docs/index.html#Vte-2.91/classes/Terminal.html#Vte.Terminal.signals.child_exited
+		term.connect('child-exited', self.on_child_exited);
+
+		term.show_all()
+
+	def on_child_exited(self, term, status):
+		## https://lazka.github.io/pgi-docs/index.html#Vte-2.91/classes/Terminal.html#Vte.Terminal.signals.child_exited
+		print('')
+		print('on_child_exited:')
+		print('	term:', term)
+		print('	status:', status)
+
+		Gtk.main_quit()
+
+
+class Win:
+	app = None
+	win = None
 	term = None
 
-	def __init__(self, *args, **kwds):
-		super().__init__(*args, **kwds)
-		## super(Win, self).__init__(*args, **kwds)
+	title = 'Demo Vte.Terminal'
+
+	def __init__ (self):
+		pass
 
 	def init (self):
 		self.init_win()
 
 	def init_term (self):
 		self.term = term = Term()
+		term.app = self.app
 		term.init()
 
 	def init_win (self):
-		self.set_title(self.title)
+		self.win = win = Gtk.Window()
+
+		win.set_title(self.title)
 
 		## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes/Widget.html#Gtk.Widget.signals.delete_event
 		#win.connect('delete-event', Gtk.main_quit)
-		self.connect('delete-event', self.on_close_win)
+		win.connect('delete-event', self.on_close_win)
 
 		self.init_term()
-		self.add(self.term)
+		win.add(self.term.term)
 
-		self.show_all()
+		win.show_all()
 
 	def on_close_win (self, win, evt):
 		## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/functions.html#Gtk.main_quit
@@ -89,6 +115,7 @@ class App:
 		signal.init()
 
 		self.win = win = Win()
+		win.app = self
 		win.init()
 
 	def run (self):
@@ -104,12 +131,14 @@ if __name__ == '__main__':
 
 ## Tutorial
 ## http://python-gtk-3-tutorial.readthedocs.io/en/latest/introduction.html
+## http://python-gtk-3-tutorial.readthedocs.io/en/latest/dialogs.html
 
 ## Gtk
 ## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0
 ## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes.html
 ## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes/Window.html
+## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes/Window.html#Gtk.Window.resize
+## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes/Window.html#Gtk.Window.resize_to_geometry
 
-## Gtk.Button
-## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes/Button.html
-## https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes/Button.html#Gtk.Button.signals.clicked
+## Vte.Terminal
+## https://lazka.github.io/pgi-docs/index.html#Vte-2.91/classes/Terminal.html

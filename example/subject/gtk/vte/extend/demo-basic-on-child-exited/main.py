@@ -34,6 +34,22 @@ class Term(Vte.Terminal):
 
 		print(rtn)
 
+		## self.watch_child(rtn[1])
+
+		## https://lazka.github.io/pgi-docs/index.html#Vte-2.91/classes/Terminal.html#Vte.Terminal.signals.child_exited
+		self.connect('child-exited', self.on_child_exited);
+
+		self.show_all()
+
+	def on_child_exited(self, term, status):
+		## https://lazka.github.io/pgi-docs/index.html#Vte-2.91/classes/Terminal.html#Vte.Terminal.signals.child_exited
+		print('')
+		print('on_child_exited:')
+		print('	term:', term)
+		print('	status:', status)
+
+		Gtk.main_quit()
+
 class Win(Gtk.Window):
 	title = 'Demo Vte.Terminal'
 
