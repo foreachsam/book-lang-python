@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Python Gtk KeyBinder
+title: Python Gtk Keybinder
 description: >
-  Python Gtk KeyBinder
+  Python Gtk Keybinder
 date: 2017-04-06 17:13:26 +0800
 source_url: '/read/subject/gtk/keybinder/index.md'
 parent:
