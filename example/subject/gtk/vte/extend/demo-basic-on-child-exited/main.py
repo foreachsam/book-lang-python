@@ -22,7 +22,7 @@ class Term(Vte.Terminal):
 
 	def init_term (self):
 		## https://lazka.github.io/pgi-docs/index.html#Vte-2.91/classes/Terminal.html#Vte.Terminal.spawn_sync
-		rtn = self.spawn_sync(
+		ok, pid = self.spawn_sync(
 			Vte.PtyFlags.DEFAULT,
 			os.environ['HOME'],
 			['/bin/bash'],
@@ -32,9 +32,13 @@ class Term(Vte.Terminal):
 			None,
 		)
 
-		print(rtn)
+		print('ok:', ok)
+		print('pid:', pid)
 
-		## self.watch_child(rtn[1])
+		if (not ok):
+			return False
+
+		self.watch_child(pid)
 
 		## https://lazka.github.io/pgi-docs/index.html#Vte-2.91/classes/Terminal.html#Vte.Terminal.signals.child_exited
 		self.connect('child-exited', self.on_child_exited);
