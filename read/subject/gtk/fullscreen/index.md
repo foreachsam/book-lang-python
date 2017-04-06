@@ -22,6 +22,7 @@ parent:
 * [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/fullscreen/composite/demo-basic/main.py)
 * [demo-appindicator](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/fullscreen/composite/demo-appindicator/main.py)
 * [demo-appindicator-webkit](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/fullscreen/composite/demo-appindicator-webkit/main.py)
+* [demo-appindicator-terminal](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/fullscreen/composite/demo-appindicator-terminal/main.py)
 
 ### Extend
 

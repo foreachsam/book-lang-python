@@ -22,12 +22,15 @@ parent:
 * [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/vte/composite/demo-basic/main.py)
 * [demo-basic-on-child-exited](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/vte/composite/demo-basic-on-child-exited/main.py)
 
-
 ### Extend
 
 * [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/vte/extend/demo-basic/main.py)
 * [demo-basic-on-child-exited](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/vte/extend/demo-basic-on-child-exited/main.py)
 * [demo-basic-do-child-exited](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/vte/extend/demo-basic-do-child-exited/main.py)
+
+### 整合範例
+
+* [fullscreen/composite/demo-appindicator-terminal](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/fullscreen/composite/demo-appindicator-terminal/main.py) ([Fullscreen](https://foreachsam.github.io/book-lang-python/read/subject/gtk/fullscreen/))
 
 
 ## API

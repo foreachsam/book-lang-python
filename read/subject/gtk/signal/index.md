@@ -31,6 +31,8 @@ parent:
 ### 整合範例
 
 * [fullscreen/composite/demo-appindicator-webkit](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/fullscreen/composite/demo-appindicator-webkit/main.py) ([Fullscreen](https://foreachsam.github.io/book-lang-python/read/subject/gtk/fullscreen/))
+* [fullscreen/composite/demo-appindicator-terminal](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/fullscreen/composite/demo-appindicator-terminal/main.py) ([Fullscreen](https://foreachsam.github.io/book-lang-python/read/subject/gtk/fullscreen/))
+
 
 ## Python Documentation
 
