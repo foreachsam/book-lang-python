@@ -16,6 +16,7 @@ source_url: '/index.md'
 * [Window](read/subject/gtk/window)
 * [Signal](read/subject/gtk/signal)
 * [Button](read/subject/gtk/button)
+* [KeyBinder](read/subject/gtk/keybinder)
 * [Appindicator](read/subject/gtk/appindicator)
 * [Fullscreen](read/subject/gtk/fullscreen)
 * [Webkit](read/subject/gtk/webkit)
