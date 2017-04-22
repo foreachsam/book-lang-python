@@ -21,7 +21,7 @@ source_url: '/index.md'
 * [Fullscreen](read/subject/gtk/fullscreen)
 * [Webkit](read/subject/gtk/webkit)
 * [Vte](read/subject/gtk/vte)
-
+* [TreeView](read/subject/gtk/treeview)
 
 ## [PyGObject (PyGI)](read/subject/gi)
 
