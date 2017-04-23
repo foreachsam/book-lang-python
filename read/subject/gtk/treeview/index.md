@@ -18,6 +18,11 @@ parent:
 * [demo-filetree](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/treeview/composite/demo-filetree/main.py)
 
 
+### 整合範例
+
+* [demo-filetree-open-file-by-vim](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/treeview/composite/demo-filetree-open-file-by-vim/main.py)
+
+
 ## API
 
 ### Gtk-3

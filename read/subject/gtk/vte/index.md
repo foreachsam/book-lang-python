@@ -32,7 +32,7 @@ parent:
 ### 整合範例
 
 * [fullscreen/composite/demo-appindicator-terminal](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/fullscreen/composite/demo-appindicator-terminal/main.py) ([Fullscreen](https://foreachsam.github.io/book-lang-python/read/subject/gtk/fullscreen/))
-
+* [demo-filetree-open-file-by-vim](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/treeview/composite/demo-filetree-open-file-by-vim/main.py)
 
 ## API
 
