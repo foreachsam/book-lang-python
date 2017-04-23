@@ -315,7 +315,7 @@ class Win:
 	top = 200
 	left = 200
 
-	default_load_path = '/home/sam/Music'
+	default_load_path = '/home'
 
 	def prep (self, **kwds):
 		self.app = kwds['app']
