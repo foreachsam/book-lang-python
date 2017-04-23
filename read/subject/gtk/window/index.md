@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Python Gtk Webkit
+title: Python Gtk Window
 description: >
-  Python Gtk Webkit
+  Python Gtk Window
 date: 2017-04-02 12:34:55 +0800
 source_url: '/read/subject/gtk/window/index.md'
 parent:

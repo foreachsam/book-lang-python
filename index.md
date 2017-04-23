@@ -11,6 +11,10 @@ source_url: '/index.md'
 # Python
 
 
+## [PyGObject (PyGI)](read/subject/gi)
+
+* [fcitx](read/subject/gi/fcitx)
+
 ## [Gtk 3](read/subject/gtk)
 
 * [Window](read/subject/gtk/window)
@@ -23,6 +27,6 @@ source_url: '/index.md'
 * [Vte](read/subject/gtk/vte)
 * [TreeView](read/subject/gtk/treeview)
 
-## [PyGObject (PyGI)](read/subject/gi)
+## [PyQt5](read/subject/qt)
 
-* [fcitx](read/subject/gi/fcitx)
+* [Window](read/subject/qt/window)
