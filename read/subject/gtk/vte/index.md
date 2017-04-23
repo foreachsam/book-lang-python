@@ -21,6 +21,7 @@ parent:
 
 * [demo-basic](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/vte/composite/demo-basic/main.py)
 * [demo-basic-on-child-exited](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/vte/composite/demo-basic-on-child-exited/main.py)
+* [demo-vim](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gtk/vte/composite/demo-vim/main.py)
 
 ### Extend
 
