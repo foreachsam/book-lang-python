@@ -12,6 +12,7 @@ source_url: '/read/subject/gi/index.md'
 ## Subject
 
 * [Fcitx](fcitx)
+* [Gsettings](gsettings)
 
 
 ## Document

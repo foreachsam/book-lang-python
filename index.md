@@ -13,7 +13,9 @@ source_url: '/index.md'
 
 ## [PyGObject (PyGI)](read/subject/gi)
 
-* [fcitx](read/subject/gi/fcitx)
+* [Fcitx](read/subject/gi/fcitx)
+* [Gsettings](read/subject/gi/gsettings)
+
 
 ## [Gtk 3](read/subject/gtk)
 
@@ -26,6 +28,7 @@ source_url: '/index.md'
 * [Webkit](read/subject/gtk/webkit)
 * [Vte](read/subject/gtk/vte)
 * [TreeView](read/subject/gtk/treeview)
+
 
 ## [PyQt5](read/subject/qt)
 
