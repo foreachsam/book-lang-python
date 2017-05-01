@@ -5,6 +5,7 @@
 ## 參考網址
 
 * [Gsettings 使用筆記](http://foreachsam.github.io/book-util-gsettings/book/) / [pluma encodings](http://foreachsam.github.io/book-util-gsettings/book/content/case/pluma/encodings/)
+* [Python 學習筆記](https://foreachsam.github.io/book-lang-python/) / [Gsettings](https://foreachsam.github.io/book-lang-python/read/subject/gi/gsettings/)
 
 
 ## API

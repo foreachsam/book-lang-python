@@ -16,6 +16,8 @@ parent:
 ### Prototype
 
 * [demo-gedit-encodings](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gi/gsettings/prototype/demo-gedit-encodings/)
+* [demo-pluma-encodings](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gi/gsettings/prototype/demo-pluma-encodings/)
+
 
 
 ## API
