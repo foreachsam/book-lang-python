@@ -33,3 +33,4 @@ parent:
 ## 相關連結
 
 * [Gsettings 使用筆記](http://foreachsam.github.io/book-util-gsettings/book/)
+* Vala 學習筆記 / [gsettings](https://foreachsam.github.io/book-lang-vala/book/content/gio/gsettings.html)
