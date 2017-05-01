@@ -19,7 +19,6 @@ parent:
 * [demo-pluma-encodings](https://github.com/foreachsam/book-lang-python/blob/gh-pages/example/subject/gi/gsettings/prototype/demo-pluma-encodings/)
 
 
-
 ## API
 
 ### Gio
@@ -29,3 +28,8 @@ parent:
 ### Gio.Settings
 
 * [https://lazka.github.io/pgi-docs/#Gio-2.0/classes/Settings.html](https://lazka.github.io/pgi-docs/#Gio-2.0/classes/Settings.html)
+
+
+## 相關連結
+
+* [Gsettings 使用筆記](http://foreachsam.github.io/book-util-gsettings/book/)
