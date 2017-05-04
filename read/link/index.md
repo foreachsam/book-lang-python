@@ -20,6 +20,9 @@ source_url: '/read/link/index.md'
 * [Python GObject Introspection API Reference](https://lazka.github.io/pgi-docs/index.html)
 * GitHub / Gnome / [pygobject](https://github.com/GNOME/pygobject.git)
 * [GNOME Developer Platform Demos](https://developer.gnome.org/gnome-devel-demos/stable/index.html.en) / [Tutorials, code samples and platform demos in Python](https://developer.gnome.org/gnome-devel-demos/stable/py.html.en)
+* [GObject Introspection Reference Manual](https://developer.gnome.org/gi/stable/)
+* [https://pygobject.readthedocs.io/](https://pygobject.readthedocs.io/)
+* GitHub / [pygobject](https://github.com/pygobject) / [pygobject-docs](https://github.com/pygobject/pygobject-docs)
 
 
 ## Tutorial
