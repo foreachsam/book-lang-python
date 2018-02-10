@@ -33,3 +33,4 @@ source_url: '/index.md'
 ## [PyQt5](read/subject/qt)
 
 * [Window](read/subject/qt/window)
+* [Signal](read/subject/qt/signal)

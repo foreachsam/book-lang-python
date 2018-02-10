@@ -29,7 +29,7 @@ class Win:
 	win = None
 	view = None
 
-	title = 'Demo QSystemTrayIcon Window'
+	title = 'Demo Signal'
 	width = 800
 	height = 600
 	top = 200
