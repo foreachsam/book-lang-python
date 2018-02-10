@@ -28,6 +28,21 @@ parent:
 
 * /usr/share/doc/pyqt5-examples/examples/desktop/systray/systray.py
 
+### 參考指令
+
+執行
+
+``` sh
+$ python3 /usr/share/doc/pyqt5-examples/examples/desktop/systray/systray.py
+```
+
+或是執行
+
+``` sh
+cd /usr/share/doc/pyqt5-examples/examples/desktop/systray/
+python3 systray.py
+```
+
 
 ## API
 
