@@ -34,3 +34,4 @@ source_url: '/index.md'
 
 * [Window](read/subject/qt/window)
 * [Signal](read/subject/qt/signal)
+* [SystemTray](read/subject/qt/systemtray)

@@ -15,12 +15,13 @@ source_url: '/read/subject/qt/index.md'
 
 * [Window](window)
 * [Signal](signal)
-
+* [SystemTray](systemtray)
 
 ## Document
 
 * [PyQt](https://riverbankcomputing.com/software/pyqt/intro)
 * [PyQt5 Reference Guide](http://pyqt.sourceforge.net/Docs/PyQt5/index.html)
+* PyQt5 / [Class Index](http://pyqt.sourceforge.net/Docs/PyQt5/sip-classes.html)
 * Qt Documentation / [All Classes](https://doc.qt.io/qt-5/classes.html)
 
 
