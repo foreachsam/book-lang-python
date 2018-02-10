@@ -33,6 +33,12 @@ parent:
 執行
 
 ``` sh
+$ /usr/share/doc/pyqt5-examples/examples/desktop/systray/systray.py
+```
+
+或是執行
+
+``` sh
 $ python3 /usr/share/doc/pyqt5-examples/examples/desktop/systray/systray.py
 ```
 
