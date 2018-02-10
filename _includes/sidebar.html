@@ -7,7 +7,7 @@
 
 	<div class="item"><a href="{{ '/sitemap.xml' | prepend: site.baseurl | escape }}" class="nav-btn" title="Sitemap"><i class="sitemap icon"></i>Sitemap</a></div>
 
-	<div class="item"><a href="{{ site.repo.url | escape }}" class="nav-btn" target="_blank" title="GitHub"><i class="github icon" title="Theme GitHub"></i>Theme GitHub</a></div>
+	<div class="item"><a href="{{ site.repo.url | escape }}" class="nav-btn" target="_blank" title="GitHub"><i class="github icon" title="GitHub"></i>GitHub</a></div>
 
 	{% for menu_item in site.menu %}
 	<div class="item"><a href="{{ menu_item.url | escape }}" class="nav-btn" target="_blank" title="{{ menu_item.title | escape }}"><i class="{{ menu_item.icon | escape }} icon"></i>{{ menu_item.title | escape }}</a></div>
