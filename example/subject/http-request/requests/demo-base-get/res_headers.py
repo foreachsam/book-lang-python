@@ -21,8 +21,8 @@ for key in res.headers:
 	#print(key)
 	#print(val)
 
-	## https://docs.python.org/3.4/library/string.html#formatstrings
-	## https://docs.python.org/3.4/library/string.html#formatexamples
+	## https://docs.python.org/3/library/string.html#formatstrings
+	## https://docs.python.org/3/library/string.html#formatexamples
 	#line = '{key}: {val}'.format(key=key, val=val)
 	line = '{}: {}'.format(key, val)
 	print(line)
